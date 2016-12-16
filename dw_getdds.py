@@ -46,6 +46,6 @@ def get_degree_days():
 			sheet.cell(row=cap_counter, column=2).value = hdd
 			# print get_url
 			cap_counter += 1
-	spsh.save('DDericg.xlsx')
+	spsh.save('DegreeDaysEricG.xlsx')
 if __name__ == '__main__':
 	get_degree_days()
